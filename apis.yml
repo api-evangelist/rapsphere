@@ -1,8 +1,24 @@
 aid: rapsphere
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/rapsphere.png
 name: Rapsphere
-description: Rapsphere is a company surfaced as a portfolio company of lightspeed-venture-partners and
-  added to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment
-  pipeline.
+description: RAPsphere was a mobile IT company that developed mobile information management solutions
+  enabling CIOs to contend with BYOD (bring-your-own-device) in the enterprise and the critical need to
+  protect corporate applications and data on mobile devices. Backed by Lightspeed Venture Partners, the
+  company was acquired by AppSense in May 2012 and no longer operates as an independent entity. Its former
+  domain (rapsphere.com) is now a parked / for-sale domain and there is no live developer surface, public
+  API, documentation, or reachable web presence to enrich. This profile is retained as a portfolio-history
+  lead and is not an active API provider.
 url: https://raw.githubusercontent.com/api-evangelist/rapsphere/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -10,14 +26,29 @@ x-backed-by:
 - lightspeed-venture-partners
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-status: defunct
+x-acquired-by: AppSense
+x-acquired-date: '2012-05'
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
+- Mobile IT
+- BYOD
+- Enterprise Security
+- Mobile Device Management
+- Defunct
 apis: []
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-20'
+  status: nochange
+  artifacts_added: 0
+  pass: local-v1
+  notes: Defunct company (acquired by AppSense May 2012); no live web presence or API surface — no
+    artifacts producible.
